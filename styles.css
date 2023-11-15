@@ -1,2 +1,43 @@
 
 /* Your CSS Code here. */
+body{
+	font-family: arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0px;
+	padding: 10px;
+	display: flex;
+	 justify-content: center;
+	align-item: center;
+}
+form{
+	background-color: lightblue;
+	
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px;
+}
+label{
+	display: block;
+	margin-top: 8px;
+}
+input,select{
+	width: 100%;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+	
+}
+button{
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}
+button:hover{
+	background-color:  #45a049;
+	
+}
